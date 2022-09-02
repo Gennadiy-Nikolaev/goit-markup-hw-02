@@ -1,0 +1,17 @@
+/*Цвет основного текста #212121*/
+body {color: #212121;
+background-color: #fff;}
+/*Вторичный цвет текста #757575 */
+/*Акцент #2196F3*/
+/*Белый* #FFFFFF/
+/*Tel, mailto rgba(255, 255, 255, 0.6);*/
+/*Основной фон background: #F5F5F5;*/
+/*Дополнит цвет фона #F5F4FA*/
+/*Утилита для сброса точек ненумерованного списка*/
+.list {list-style: none;}
+/*Стиль logo*/
+.logo {color: #212121;}
+.logo :hover, .logo :focus {color: #2196F3;}
+/*Site-nav*/
+.site-nav .link {color: #212121;}
+.site-nav .link:hover, .site-nav .link:focus { color: #2196F3 ;}
