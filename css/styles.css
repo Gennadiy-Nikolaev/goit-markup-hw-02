@@ -11,7 +11,13 @@ background-color: #fff;}
 .list {list-style: none;}
 /*Стиль logo*/
 .logo {color: #212121;}
-.logo :hover, .logo :focus {color: #2196F3;}
+.logo:hover, .logo:focus {color: #2196F3;}
 /*Site-nav*/
 .site-nav .link {color: #212121;}
 .site-nav .link:hover, .site-nav .link:focus { color: #2196F3 ;}
+/*Auth-nav*/
+.auth-nav .link {color: #212121;}
+.auth-nav .link:hover, .aush-nav .link:focus {color: #2196F3;}
+/*work-nav*/
+.work-nav .link {color: #212121;}
+.work-nav .link:hover, .work-nav .link:focus {color: #2196F3;}
