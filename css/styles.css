@@ -1,9 +1,16 @@
-/*Цвет основного текста #212121*/
-body {color: #212121;
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --r-text-color: red;
+}
+body {color: var(--primary-text-color);
 background-color: #fff;}
-/*Вторичный цвет текста #757575 */
+
+/*Цвет основного текста #212121*/
+/*Вторичный цвет текста #757575*/
 /*Акцент #2196F3*/
-/*Белый* #FFFFFF/
+/*Белый #FFFFFF*/
 /*Tel, mailto rgba(255, 255, 255, 0.6);*/
 /*Основной фон background: #F5F5F5;*/
 /*Дополнит цвет фона #F5F4FA*/
@@ -11,13 +18,28 @@ background-color: #fff;}
 .list {list-style: none;}
 /*Стиль logo*/
 .logo {color: #212121;}
-.logo:hover, .logo:focus {color: #2196F3;}
-/*Site-nav*/
-.site-nav .link {color: #212121;}
-.site-nav .link:hover, .site-nav .link:focus { color: #2196F3 ;}
-/*Auth-nav*/
-.auth-nav .link {color: #212121;}
-.auth-nav .link:hover, .aush-nav .link:focus {color: #2196F3;}
-/*work-nav*/
-.work-nav .link {color: #212121;}
-.work-nav .link:hover, .work-nav .link:focus {color: #2196F3;}
+.logo:hover, .logo:focus {color: var(--accent-color);}
+/*Hove-focus кнопок навигации по сайту*/
+.site-nav .link {color: var(--primary-text-color);}
+.site-nav .link:hover, .site-nav .link:focus {color: var(--accent-color);}
+/*Адрес компании*/
+.auth-nav .link {color: var(--primary-text-color);}
+.auth-nav .link:hover, .aush-nav .link:focus {color: var(--accent-color);}
+/*Кнопки выбора портфолио*/
+.work-nav .link {color: var(--primary-text-color);}
+.work-nav .link:hover, .work-nav .link:focus {color: var(--accent-color);}
+/*Герой*/
+.hero-title {color: var(--primary-text-color)}
+/*Specifics*/
+.section .title {color: var(--primary-text-color);}
+.section .post {color: var(--secondary-text-color);}
+/*What do we do*/
+.section-title {color: var(--primary-text-color);}
+/*Our team*/
+.team-title {color: var(--primary-text-color);}
+.team-list .title {color: var(--primary-text-color);}
+.team-list .post {color: var(--secondary-text-color);}
+/*Work examples*/
+.work-title {color: var(--primary-text-color);}
+.work-list .title {color: var(--primary-text-color);}
+.work-list .post {color: var(--secondary-text-color);}
