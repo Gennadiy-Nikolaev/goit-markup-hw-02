@@ -32,7 +32,7 @@ body {
         color: #2196f3;
 }
 
-/*Site nav*/
+/*Header Site nav*/
 .site-nav .link {
     color: var(--primary-text-color);
 }
