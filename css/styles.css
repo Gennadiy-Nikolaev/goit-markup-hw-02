@@ -48,7 +48,7 @@ a, adress {text-decoration: none;}
 .site-nav .link:focus {
     color: var(--accent-color);
 }
-.site-nav .link .current {color: var(--accent-color);}
+.site-nav .link.current {color: var(--accent-color);}
 
 /*Mail+tel*/
 .auth-nav .link {
