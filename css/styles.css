@@ -51,11 +51,17 @@ a, adress {text-decoration: none;}
 
 /*Mail+tel*/
 .auth-nav .link {
-    color: var(--primary-text-color);
-}
+    color: var(--primary-text-color);           
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        }
 .auth-nav .tel {
     color: var(--secondary-text-color);
-}
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--accent-color);
@@ -64,8 +70,6 @@ a, adress {text-decoration: none;}
 .auth-nav .tel:focus {
     color: var(--accent-color);
 }
-
-
 
 /*Footer*/
 .contact-nav .adres {color: var(--primary-text-color);}
@@ -83,7 +87,12 @@ a, adress {text-decoration: none;}
 
 /*Hero*/
 .hero-title {
-    color: var(--primary-text-color);
+    color: var(--primary-text-color);    
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;          
+        text-align: center;        
+        text-transform: uppercase;   
 }
 
 /* Button */
@@ -108,39 +117,64 @@ a, adress {text-decoration: none;}
 /*Specifics*/
 .section .title {
     color: var(--primary-text-color);
-}
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1,14;
+            text-transform: uppercase;
+        }
 
 .section .post {
-    color: var(--secondary-text-color);
-}
+    color: var(--secondary-text-color); 
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            }
 
 /*What do we do*/
 .section-title {
     color: var(--primary-text-color);
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.16;
+            text-align: center;      
 }
 
 /*Our team*/
 .team-title {
-    color: var(--primary-text-color);
+    color: var(--primary-text-color);    
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;        
 }
 
 .team-list .title {
-    color: var(--primary-text-color);
+    color: var(--primary-text-color);    
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;       
+        text-align: center;
 }
 
 .team-list .post {
-    color: var(--secondary-text-color);
+    color: var(--secondary-text-color);    
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18px;
+        text-align: center;        
 }
 
 /*Work examples*/
-.work-title {
-    color: var(--primary-text-color);
-}
-
 .work-list .title {
-    color: var(--primary-text-color);
+    color: var(--primary-text-color);    
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
 }
-
+        
 .work-list .post {
-    color: var(--secondary-text-color);
+    color: var(--secondary-text-color);   
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88; 
 }
