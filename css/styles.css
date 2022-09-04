@@ -72,8 +72,20 @@ a, adress {text-decoration: none;}
 }
 
 /*Footer*/
-.contact-nav .adres {color: var(--primary-text-color);}
-.contact-nav .contact {color: rgba(184, 23, 23, 0.6) ;} 
+.contact .adres {
+    color: var(--primary-text-color);    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;        
+}
+.contact .link  {
+    color: rgba(184, 23, 23, 0.6) ;    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;        
+} 
 
 /*Кнопки выбора портфолио*/
 .work-nav .link {
