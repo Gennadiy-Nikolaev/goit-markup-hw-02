@@ -32,11 +32,26 @@ a, adress {text-decoration: none;}
 
 /*Стиль logo*/
 .logo {
-        color: #2196f3;
+        color: var(--accent-color);
         font-family: Raleway, sans-serif;      
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;                
+}
+.accent {
+    color: var(--primary-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+}
+.studio {
+    color: var(--text-color);
+        font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
 }
 
 /*Header Site nav*/
@@ -86,23 +101,6 @@ a, adress {text-decoration: none;}
     text-align: center;
     text-transform: uppercase;
 }
-
-/*Footer*/
-.footer {background-color:var(--secondary-background-color);}
-.contact .adres {
-    color: var(--text-color);    
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;        
-}
-.contact .link  {
-    color: rgba(255, 255, 255, 0.6) ;    
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;        
-} 
 
 /*Кнопки выбора портфолио*/
 .work-nav .link {
@@ -197,4 +195,24 @@ a, adress {text-decoration: none;}
         font-weight: 400;
         font-size: 16px;
         line-height: 1.88; 
+}
+/*Footer*/
+.footer {
+    background-color: var(--secondary-background-color);
+}
+
+.contact .adres {
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.contact .link {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
