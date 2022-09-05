@@ -136,7 +136,7 @@ a, adress {text-decoration: none;}
     color: var(--primary-text-color);
             font-weight: 700;
             font-size: 14px;
-            line-height: 1,14;
+            line-height: 1.14;
             text-transform: uppercase;
         }
 
@@ -215,4 +215,12 @@ a, adress {text-decoration: none;}
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+}
+.contact .adres:hover,
+.contact .adres:focus {
+    color: var(--accent-color);
+} 
+.contact .link:hover,
+.contact .link:focus {
+    color: var(--accent-color);
 }
