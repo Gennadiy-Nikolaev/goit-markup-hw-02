@@ -48,6 +48,7 @@ a, adress {text-decoration: none;}
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+/*составной селектор- фиксатор цвета ссылки*/
 .site-nav .link.current {color: var(--accent-color);}
 
 /*Mail+tel*/
