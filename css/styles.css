@@ -26,7 +26,6 @@ body {
 .list {
     list-style: none;    
 }
-
 /*Відмінюємо підкреслення для тегів*/
 a, adress {text-decoration: none;}
 
@@ -116,7 +115,7 @@ a, adress {text-decoration: none;}
 .button {
     color: var(--primary-background-color);
     background-color: var(--accent-color);
-    border-color: transparent;
+    border-color: transparent;    
 }
 
 .button.primary {
@@ -130,6 +129,8 @@ a, adress {text-decoration: none;}
     background-color: var(--primary-button-color);
     border-color: transparent;
 }
+
+
 
 /*Specifics*/
 .section .title {
