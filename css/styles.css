@@ -18,6 +18,16 @@
     --secondary-background-color: #2f303a;
 }
 
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+    
+
 body {
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
@@ -28,6 +38,8 @@ body {
 
 .list {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: auto;
 }
 
 /*Відмінюємо підкреслення для тегів*/
@@ -62,6 +74,10 @@ adress {
 }
 
 /*Header Site nav*/
+.page-header {
+    background-color: #ccc;
+}
+
 .site-nav .link {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -95,19 +111,22 @@ adress {
 /*Hero*/
 .hero {
     background-color: var(--secondary-background-color);
+    text-align: center;
+    margin-bottom: 94px;
 }
-
 .hero-title {
     color: var(--text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    /*text-align: center;*/
     text-transform: uppercase;
     letter-spacing: 0.06em;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
-/*Button*/
+/*Buttons*/
 .button {
     color: var(--primary-background-color);
     background-color: var(--accent-color);
@@ -118,6 +137,10 @@ adress {
     line-height: 1.875;
     text-align: center;
     letter-spacing: 0.06em;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 216px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button.primary {
@@ -155,21 +178,36 @@ adress {
 }
 
 /*Specifics*/
+.specifics {
+    margin-top: 0;
+    margin-bottom: 94px;
+}
 .section .title {
+    margin-top: 0;
+    margin-bottom: 10px;
     color: var(--primary-text-color);
     font-weight: 700;
     line-height: 1.14;
-    text-transform: uppercase;
+    text-transform: uppercase;    
 }
 
 .section .post {
+    margin-top: 0;
+    margin-bottom: 0;
     color: var(--secondary-text-color);
     font-weight: 400;
     line-height: 1.71;
 }
 
 /*What do we do*/
+.image {
+    margin-top: 0;
+    margin-bottom: 94px;
+}
+
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -179,10 +217,14 @@ adress {
 
 /*Our team*/
 .team {
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: var(--background-color);
 }
 
 .team-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -191,6 +233,8 @@ adress {
 }
 
 .team-list .title {
+    margin-top: 30px;
+    margin-bottom: 10px;    
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -199,6 +243,8 @@ adress {
 }
 
 .team-list .post {
+    margin-top: 0;
+    margin-bottom: 0;
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -206,16 +252,23 @@ adress {
     text-align: center;
 }
 
-/*Work examples*/
+/*Portfolio*/
+.portfolio {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
 .work-list .title {
+    margin-top: 20px;
+    margin-bottom: 4px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-
 .work-list .post {
+    margin-top: 0;
+    margin-bottom: 0;    
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -239,4 +292,11 @@ adress {
     font-style: normal;
     font-weight: 400;
     line-height: 1.71;
+}
+/*Розмітка сторінки*/
+.container {    
+    width: 1200px;    
+    margin-left:auto ;
+    margin-right: auto;
+    outline: 2px solid tomato;
 }
